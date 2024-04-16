@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+}
+
+#main {
+    margin: auto;
+    border: 1px solid black;
+    width: 40%;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: gray;
+}
+
+input[name="nome"] {
+    padding: 10px;
+    border-radius: 20px ;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+#butt {
+    text-align: center; 
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    
+}
+
+#sen {
+    margin-top: 20px;
+}
+
+#nom {
+    margin-top: 70px;
+}
+
+#user {
+    margin-top: 20px;
+}
+
+input[name="senha"] {
+    padding: 10px;
+    border-radius: 20px ;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+input[name="usuario"] {
+    padding: 10px;
+    border-radius: 20px ;
+    width: 78%;
+    border: none;
+    outline: none;
+}
+
+label {
+    font-weight: bolder;
+    font-size: larger;
+}
+

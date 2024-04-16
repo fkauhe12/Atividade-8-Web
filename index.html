@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Cadastro</h1>
+
+        <div id="nom">
+            <label>Nome:</label>     
+            <input type="text" placeholder="Digite seu nome aqui" name="nome" id="nome">
+        </div>
+
+        <div id="user">
+            <label>Usuario:</label>     
+            <input type="text" placeholder="Digite seu usuario aqui" name="usuario" id="usuario">
+        </div>
+
+        
+        <div id="sen">
+            <label>Senha:</label>
+            <input type="password" placeholder="Digite sua senha aqui" name="senha" id="senha" >
+        </div>
+
+        <div id="butt">
+            <button onclick="validacao()">Enviar</button>
+        </div>
+
+        <h1 id="resultado"></h1>
+        <script src="js/scripts.js"></script>
+    </div>
+</body>
+</html>

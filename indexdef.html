@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora imc</title>
+    <link rel="icon" href="https://pt.calcuworld.com/wp-content/uploads/sites/6/2019/07/imc-.png" type="image/icon">
+    <link rel="stylesheet" href="css/styledef.css">
+    <script src="https://kit.fontawesome.com/14e67e3ac1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">       
+        <div>
+            <h1>Calculadora de IMC</h1>
+
+            <div class="inf">
+                <label>Digite seu peso:</label>
+                <div class="bord">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <input type="number" placeholder="Peso" id="peso" name="peso" >
+                </div>
+            </div>
+
+            <div class="inf">
+                <label>Digite sua altura:</label>
+                <div class="bord">
+                    <i class="fa-solid fa-person"></i>
+                    <input type="number" placeholder="Altura" id="altura" name="altura">
+                </div>
+            </div>
+            
+            <div id="result">
+                <label>Resultado:</label>
+                <div id="cx-branco">
+                    <h4 id="resultado"></h4>               
+                </div>
+            </div>
+
+            <div id="butt">
+                <button onclick="imc()">Enviar</button>
+            </div>
+        </div>
+        <script src="js/scripts2.js"></script>
+    </div>
+</body>
+</html>
